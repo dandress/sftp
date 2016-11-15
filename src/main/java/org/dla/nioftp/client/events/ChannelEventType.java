@@ -1,0 +1,35 @@
+package org.dla.nioftp.client.events;
+
+/**
+ *
+ * @author Dennis Andress
+ *
+ *  Jan 15, 2013 8:13:41 AM
+ */
+public enum ChannelEventType {
+
+	CREATED,
+	CLOSED,
+	CONNECT,
+	AVAILABLE,
+	WRITE,
+	READ,
+	SERVER_MSG,
+	RESPONSE,
+	FAULT,
+	XFER_COMPLETE,
+	SSH_KEX,
+	CHAN_OPEN,
+	CHAN_OPEN_FAIL,
+	CHAN_FXP_OPEN,
+	CHAN_FAIL,
+	CHAN_FXP_INIT,
+	CHAN_FILE_OPEN,
+	CHAN_FILE_OPEN_FAILED,
+	CHAN_FXP_WRITE_SUCCESS,
+	CHAN_FXP_WRITE_FAILED,
+	CHAN_FILE_CLOSED,
+	SSH_DISCONNECTED,
+	CHAN_CLOSED;
+
+}

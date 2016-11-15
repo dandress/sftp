@@ -1,0 +1,12 @@
+doc-site/
+target/
+nbproject/
+*.orig
+*.jar
+*.ear
+*.war
+*.pdf
+.DS_Store
+*.*~
+*.swp
+
