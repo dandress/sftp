@@ -13,11 +13,11 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-<!--	<repositories>
+	<repositories>
 		<repository>
-			<id>ct-nexus</id>
-			<name>CT Nexus</name>
-			<url>${ct.public.url}</url>
+			<id>github</id>
+			<name>Git Hub</name>
+			<url>https://github.com/dandress/sftp.git</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -26,23 +26,7 @@
 			</snapshots>
 		</repository>
 	</repositories>
--->
-<!--	<distributionManagement>
-		<site>
-			<id>site.callvault</id>
-			<url>${doc.URL}</url>
-		</site>
-		<repository>
-			<id>deployment</id>
-			<name>Internal Releases</name>
-			<url>${ct.releases.url}</url>
-		</repository>
-		<snapshotRepository>
-			<id>deployment</id>
-			<name>Internal Releases</name>
-			<url>${ct.snapshots.url}</url>
-		</snapshotRepository>
-	</distributionManagement>-->
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
